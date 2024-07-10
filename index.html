@@ -82,21 +82,38 @@
           </div>
         </nav>
       </div></header> 
-    <section class="u-clearfix u-image u-uploaded-video u-section-1" id="sec-eca5" data-image-width="3065" data-image-height="1691">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <img class="u-image u-image-default u-image-1" src="images/2_SPrgENHor.jpg" alt="" data-image-width="1945" data-image-height="280" data-animation-name="customAnimationIn" data-animation-duration="1000" data-animation-delay="0">
-        <div class="u-container-style u-custom-color-3 u-expanded-width-xs u-group u-opacity u-opacity-15 u-group-1">
-          <div class="u-container-layout u-container-layout-1">
-            <div class="u-border-3 u-border-white u-shape u-shape-bottom u-shape-left u-shape-1"></div>
-            <img class="u-image u-image-contain u-image-default u-image-2" src="images/HEISTlogonatowhite1.png" alt="" data-image-width="3072" data-image-height="701">
-            <p class="u-align-center u-custom-font u-font-courier-new u-text u-text-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0"> HYBRID SPACE-SUBMARINE ARCHITECTURE ENSURING INFOSEC OF TELECOMMUNICATIONS<br>
-              <br>
-            </p>
-            <div class="u-border-3 u-border-white u-shape u-shape-right u-shape-top u-shape-2"></div>
+      <section class="u-clearfix u-image u-uploaded-video u-section-1" id="sec-eca5" data-image-width="3065" data-image-height="1691">
+        <div class="u-clearfix u-sheet u-sheet-1">
+          <img class="u-image u-image-default u-image-1" src="images/2_SPrgENHor.jpg" alt="" data-image-width="1945" data-image-height="280" data-animation-name="customAnimationIn" data-animation-duration="1000" data-animation-delay="0">
+          <div class="u-container-style u-custom-color-3 u-expanded-width-xs u-group u-opacity u-opacity-15 u-group-1">
+            <div class="u-container-layout u-container-layout-1">
+              <div class="u-border-3 u-border-white u-shape u-shape-bottom u-shape-left u-shape-1"></div>
+              <img class="u-image u-image-contain u-image-default u-image-2" src="images/HEISTlogonatowhite1.png" alt="" data-image-width="3072" data-image-height="701">
+              <p id="demo" class="u-align-center u-custom-font u-font-courier-new u-text u-text-1" data-animation-name="fadeIn" data-animation-duration="1000" data-animation-delay="0"></p>
+              
+              <script>
+              var i = 0;
+              var txt = 'HYBRID SPACE-SUBMARINE ARCHITECTURE ENSURING INFOSEC OF TELECOMMUNICATIONS';
+              var speed = 50;
+      
+              function typeWriter() {
+                if (i < txt.length) {
+                  document.getElementById("demo").innerHTML += txt.charAt(i);
+                  i++;
+                  setTimeout(typeWriter, speed);
+                }
+              }
+      
+              // Call typeWriter() when the window loads
+              window.onload = function() {
+                typeWriter();
+              }
+              </script>
+              <div class="u-border-3 u-border-white u-shape u-shape-right u-shape-top u-shape-2"></div>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
     <section class="u-clearfix u-white u-section-2" id="sec-0530">
       <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <p class="u-align-center u-custom-font u-font-courier-new u-text u-text-black u-text-1"> HEIST will result in augmented threat detection, fault diagnosis and communication resilience for SCCs. Currently, the absence of submarine situational awareness data fusion delivers sparse fault localization, whereas HEIST will achieve meter- range precision. Impaired SCCs suffer days of downtime due to physical inspection and repair, whereas HEIST’s rerouting protocol enabled by the heterogeneous space and submarine communications architecture reduces downtime to hours. Developing new satcom advanced technology in high bandwidth free-space optical links and non-terrestrial networks will facilitate last-mile connectivity. A successful project will yield HEIST’s technology transition enabled by our regulatory and policy framework to NATO and commercial operators.</p>
